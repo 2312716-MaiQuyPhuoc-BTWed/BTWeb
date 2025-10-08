@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* a:link {
+      color: maroon;
+    }
+
+    a:visited {
+      color: gray;
+    }
+
+    input:focus {
+      background-color: yellow;
+    }
+
+    a:hover {
+      color: maroon;
+
+      background-color: #ffd9d9;
+    }
+
+    a:active {
+      color: red;
+
+      background-color: #ffd9d9;
+    } */
+
+    a {
+      text-decoration: none;
+    } /* bỏ dấu gạch chân */
+
+    a:link {
+      color: maroon;
+    }
+
+    a:visited {
+      color: gray;
+    }
+
+    a:focus {
+      color: maroon;
+      background-color: #ffd9d9;
+    }
+
+    a:hover {
+      color: maroon;
+      background-color: #ffd9d9;
+    }
+
+    a:active {
+      color: red;
+      background-color: #ffd9d9;
+    }
+
+    li:first-child {
+      color: red;
+    }
+
+    /* Định dạng label khi người dùng đánh dấu chọn */
+
+    input:checked + label {
+      color: red;
+    }
+
+    /* Định dạng ô chọn khi được chọn */
+
+    input[type="checkbox"]:checked {
+      box-shadow: 0 0 0 3px hotpink;
+    }
+
+    p::first-line {
+      color: red;
+    }
+
+    p::first-letter {
+      color: blue;
+
+      background-color: white;
+
+      border-radius: 10px;
+
+      font-size: 200%;
+
+      box-shadow: 3px 3px 0 black;
+
+      padding: 5px 3px;
+
+      margin-right: 5px;
+    }
+
+    p::before {
+      content: "Đọc thêm: ";
+
+      color: red;
+
+      font-weight: bold;
+    }
+
+    p::after {
+      content: "(Kết thúc)";
+
+      color: red;
+
+      font-weight: bold;
+    }
+
+    /* img[title] {
+      border: 5px solid;
+      color: blue;
+    } */
+
+    /* img[title="con vịt"] {
+      border: 5px solid;
+      color: dodgerblue;
+    } */
+
+    /* img[title~="con"] {
+      border: 5px solid;
+      color: red;
+    } */
+
+    /* img[title|="con"] {
+      border: 5px solid;
+      color: gray;
+    } */
+
+    /* img[src^="/images/icons"] {
+      border: 5px solid;
+      color: yellow;
+    } */
+
+    /* img[src^=".jpg"] {
+      border: 3px solid;
+    } */
+
+    img[title*="on"] {
+      border: 3px solid;
+    }
+  </style>
+  <body>
+    <a
+      href="https://legiacong.blogspot.com/2023/06/css-11-bo-chon-theo-trang-thai-thuoc.html"
+      >Link Bai 17
+    </a>
+
+    <p>Một số nội dung cần học để làm web front-end</p>
+
+    <ul>
+      <li>HTML</li>
+
+      <li>CSS</li>
+
+      <li>JS</li>
+
+      <li>React</li>
+    </ul>
+
+    <div>
+      <input type="checkbox" name="my-checkbox" id="opt-in" />
+
+      <label for="opt-in">Chọn</label>
+    </div>
+    <p>Ví dụ, chúng ta sẽ làm nổi chữ cái đầu tiên của một đoạn</p>
+    <pre>
+    <img title="" src="" alt="con vịt" />
+
+    <img title="con vịt" src="" alt="con vịt" />
+
+    <img title="con gà" src="" alt="con gà" />
+
+    <img title="con-cá" src="" alt="con-cá" />
+
+    <img title="con-mèo" src="/images/icons" alt="con-mèo" />
+
+    <img title="con-heo" src=".jpg" alt="con-heo"/>
+
+    <img title="con-chó" src="" alt="con-chó" />
+    </pre>
+  </body>
+</html>
