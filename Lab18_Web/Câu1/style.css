@@ -1,0 +1,147 @@
+/* body {
+  background-image: url(star.png);
+}
+
+blockquote {
+  background-image: url(dot.png);
+
+  margin: 25rem;
+  padding: 10em;
+
+  border: 5px solid black;
+
+  margin-top: 30%;
+} */
+
+/* NHÂN BẢN ẢNH NỀN */
+
+/* body {
+
+background-image: url(star.png);
+
+background-repeat: no-repeat;
+
+} */
+
+/* body {
+  background-image: url(star.png);
+
+  background-repeat: repeat-x;
+} */
+
+/* body {
+  background-image: url(star.png);
+
+  background-repeat: repeat-y;
+
+  background-position: right center;
+  background-position: 200px 50px;
+} */
+
+/* THUỘC TÍNH BACKGROUND */
+
+/* body {
+  background-color: white;
+
+  background-image: url(star.png);
+
+  background-repeat: no-repeat;
+
+  background-position: right top;
+
+  background-attachment: fixed;
+} */
+
+/* rút gọn */
+
+/* body {
+  background: white url(star.png) no-repeat right top fixed;
+} */
+
+/* h1,
+h2,
+h3 {
+  background: red url(dot.png) repeat-x;
+}
+
+h3 {
+  background: green;
+} */
+
+/* CHÈN NHIỀU ẢNH NỀN */
+
+/* body {
+  background-image: url(image1.png), url(image2.png), url(image3.png);
+
+  margin-top: 25%;
+
+  background-position: left, center, right;
+
+  background-repeat: no-repeat;
+} */
+
+/* body {
+  background: url(image1.png) left center no-repeat,
+    url(image2.png) center center no-repeat,
+    url(image3.png) right center no-repeat;
+
+  margin-top: 25%;
+} */
+
+/* body {
+  background-image: url(image_fallback.png) top left no-repeat;
+
+  background: url(image1.png) left top no-repeat,
+    url(image2.png) center center no-repeat,
+    url(image3.png) right bottom no-repeat;
+
+  background-color: papayawhip;
+} */
+
+/* NỀN CHUYỂN SẮC TUYẾN TÍNH */
+
+/* p {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+
+  background-image: linear-gradient(to right, yellow, green);
+} */
+
+/* p {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+
+  background-image: linear-gradient(to right, yellow, red 50%, green);
+} */
+
+/* p {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+
+  background-image: linear-gradient(
+    to bottom,
+    #e2e2e2 0%,
+    #dbdbdb 50%,
+    #d1d1d1 51%,
+    #fefefe 100%
+  );
+} */
+
+/* p {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+
+  background-image: radial-gradient(circle at 80% 20%, yellow, green);
+} */
+
+p {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+
+  background-image: radial-gradient(circle, yellow 50%, green);
+}
